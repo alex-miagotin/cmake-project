@@ -48,3 +48,7 @@ git submodule add https://github.com/glfw/glfw.git external/glfw
 - [Configure VS Code for MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 - In VS Code, run *C/C++: Edit Configurations* to add a custom include path.
 - Debug configurations for Windows and Linux are in `.vscode/`.
+
+## License
+
+Released under the [MIT License](LICENSE).
