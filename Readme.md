@@ -31,7 +31,7 @@ A minimal **CMake + GLFW** starter: a C++ program that prints a message and open
 GLFW lives in `external/glfw`. The submodule was added with:
 
 ```bash
-git submodule add git@github.com:glfw/glfw.git external/glfw
+git submodule add https://github.com/glfw/glfw.git external/glfw
 ```
 
 `CMakeLists.txt` runs `git submodule update --init --recursive` on configure and stops with an error if the GLFW sources are missing.
